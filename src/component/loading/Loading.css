@@ -1,0 +1,20 @@
+/* --------------loader----------------  */
+#load {
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    border: 20px solid #1831b1;
+    border-top : 20px solid #ffffff;
+    animation: loader 2s linear infinite;
+}
+
+/* --------------loader animation---------------- */
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
